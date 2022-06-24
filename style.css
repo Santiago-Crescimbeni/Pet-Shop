@@ -3,10 +3,6 @@
         font-family: 'Roboto', sans-serif;
     }
     
-    section a i {
-        color: aqua;
-    }
-    
     body {
         margin: 0;
         padding: 0;
@@ -247,6 +243,10 @@
     
     footer .rights a img {
         height: 1.7rem;
+    }
+    
+    section a i {
+        color: aqua;
     }
     /*estilos para smartphones */
     
