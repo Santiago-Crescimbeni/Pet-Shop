@@ -169,6 +169,73 @@
         font-weight: 500;
     }
     
+    
+    .formularioA{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+         
+    }
+    .contacto{
+        text-align: center;
+        color: #3C2313;
+        font-family: Roboto;
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .formularioA div{
+        text-align: center;
+        margin-right: 4%;
+        
+    }
+    .formularioA div input{
+        padding-left: 5%;
+        padding-right: 5%; 
+        width: 300px;
+        height: 40px;
+        border-radius: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: #3C2313;
+    }
+    ::placeholder{
+        color: white;
+        }
+
+        .divBotonesFormularioA{
+            margin-bottom: 50px;
+            margin-top: 50px;
+        }
+
+     .botonReset{
+        background-color: #8A8787;
+        color: white;
+        padding: 15px;
+        border-radius: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-style: none;
+        margin-right: 10px;
+        margin-left: 30px;
+
+    }
+
+    .botonEnviar{
+        background-color: #F0A83E;
+        color: white;
+        padding: 15px;
+        border-radius: 25px;
+        padding-left: 50px;
+        padding-right: 50px;
+        border-style: none;
+        margin-left: 20px;
+
+    }
+
+
+
+    
     .footernav {
         display: flex;
         background-color: #3C2313;
